@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>AppBootstrap</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <StartupObject>AppBootstrap.Program</StartupObject>
+    <ApplicationIcon>boot.ico</ApplicationIcon>
+    <AssemblyName>App Bootstrap</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="boot.ico" />
+  </ItemGroup>
+
+</Project>
